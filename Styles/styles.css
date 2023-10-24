@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+#palavra {
+  font-size: 28px;
+  margin: 20px;
+}
+
+#tentativas {
+  font-size: 18px;
+}
+
+#letras-utilizadas {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#input-letra {
+  font-size: 18px;
+  padding: 5px;
+}
+
+#btn-tentar {
+  font-size: 18px;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+#teclado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#teclado button {
+  font-size: 18px;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  color: black;
+}
+
+#teclado button:hover {
+  background-color: #ddd;
+}
+
+#forca {
+  margin: 20px;
+  text-align: center;
+}
